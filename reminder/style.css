@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+}
+
+
+.app {
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+input {
+  width: 60%;
+  height: 30px;
+}
+
+.add {
+  margin-top: 20px;
+  background-color:chartreuse;
+  color: #fff;
+  border: 0;
+  
+  width: 100%;
+  padding: 15px;
+}
+
+.list {
+  padding-top: 20px;
+}
+
+.item {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove {
+  background-color: rgba(255, 38, 0, 0.788);
+  margin-top: 20px;
+  color: #fff;
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
